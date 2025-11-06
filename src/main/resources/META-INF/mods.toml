@@ -1,0 +1,37 @@
+# 模组加载器类型（Forge 模组固定为 javafml）
+modLoader="javafml" #mandatory
+
+# Forge 版本范围（1.21 对应的 Forge 版本，可根据实际安装的版本修改）
+loaderVersion="[47.0.0,)" #mandatory 1.21 推荐使用 47.0.0 及以上
+
+# 模组许可证（可选，如 MIT、GPL 等）
+license="MIT"
+
+# 模组信息列表
+[[mods]] #mandatory
+# 模组唯一标识（必须与代码中的 MOD_ID 完全一致，全小写）
+modId="lytestmod" #mandatory
+# 模组版本号
+version="1.0.0" #mandatory
+# 模组显示名称（可包含大写和空格）
+displayName="Example Mod" #mandatory
+# 作者信息
+authors="realsshwer" #optional
+# 模组描述（支持多行）
+description='''A simple Forge mod example for 1.21.
+Adds a magic wand and a glowing block.''' #mandatory
+
+# 依赖配置（依赖 Forge 和 Minecraft）
+[[dependencies.examplemod]]
+modId="forge"
+mandatory=true
+versionRange="[51.0.33,)" # 与 loaderVersion 保持一致
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.examplemod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21,1.22)" # 只支持 1.21 版本
+ordering="NONE"
+side="BOTH"
