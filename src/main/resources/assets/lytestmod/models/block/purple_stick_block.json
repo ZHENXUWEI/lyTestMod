@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lytestmod:block/purple_stick_block"
+  }
+}

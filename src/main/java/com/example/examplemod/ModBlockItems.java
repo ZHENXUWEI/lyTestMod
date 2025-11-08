@@ -10,8 +10,12 @@ public class ModBlockItems {
     public static final DeferredRegister<Item> BLOCK_ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MOD_ID);
 
-    // 为发光方块创建对应的物品形式
-    public static final RegistryObject<Item> GLOWING_BLOCK_ITEM = BLOCK_ITEMS.register("glowing_block",
-            () -> new BlockItem(ModBlocks.GLOWING_BLOCK.get(), new Item.Properties())
+//    // 为发光方块创建对应的物品形式
+//    public static final RegistryObject<Item> GLOWING_BLOCK_ITEM = BLOCK_ITEMS.register("glowing_block",
+//            () -> new BlockItem(ModBlocks.GLOWING_BLOCK.get(), new Item.Properties())
+//    );
+
+    public static final RegistryObject<Item> GLOWING_BLOCK_ITEM = BLOCK_ITEMS.register("purple_stick",
+            () -> new BlockItem(ModBlocks.PURPLE_STICK_BLOCK.get(), new Item.Properties())
     );
 }

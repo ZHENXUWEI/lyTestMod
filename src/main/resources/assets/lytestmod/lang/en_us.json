@@ -1,5 +1,5 @@
 {
-  "item.lytestmod.magic_wand": "Magic Wand",
-  "block.lytestmod.glowing_block": "Glowing Block",
-  "itemGroup.lytestmod.example_tab": "Example Mod"
+  "item.lytestmod.purple_stick": "Purple Stick",
+  "block.lytestmod.purple_stick_block": "purple Stick Block",
+  "itemGroup.lytestmod.lytestmod": "lytestmod"
 }

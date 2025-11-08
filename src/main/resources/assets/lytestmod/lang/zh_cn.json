@@ -1,5 +1,5 @@
 {
-  "item.lytestmod.magic_wand": "魔法棒",
-  "block.lytestmod.glowing_block": "发光方块",
-  "itemGroup.lytestmod.example_tab": "ly模组"
+  "item.lytestmod.purple_stick": "紫色棒",
+  "block.lytestmod.purple_stick_block": "紫色棒块",
+  "itemGroup.lytestmod.lysMod": "ly的模组"
 }
